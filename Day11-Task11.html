@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 11 Task 11</title>
+  </head>
+  <body>
+    <h1>
+      Create an HTML page, which should contain all types of input elements.
+    </h1>
+    <form action="" method="get">
+      <label for="Name">Name</label><br />
+      <input type="text" name="Name" id="Name" /><br />
+      <label for="email">Email</label><br />
+      <input type="email" name="emailId" id="email" /><br />
+      <label for="age">Age</label>
+      <input
+        type="range"
+        id="volume"
+        name="age"
+        min="18"
+        max="100"
+      /><br /><br />
+      <label for="mobile">Mobile Number</label><br />
+      <input
+        type="number"
+        name="mobileNumber"
+        id="mobile"
+        required
+      /><br /><br />
+
+      <label for="image">Image</label>
+      <input
+        type="image"
+        id="image"
+        alt="Login"
+        widht="100"
+        height="100"
+        src="https://cdn.pixabay.com/photo/2015/03/10/17/23/youtube-667451_960_720.png"
+      /><br /><br />
+
+      <label for="site-search">Search the site:</label>
+      <input type="search" id="site-search" name="q" />
+
+      <button>Search</button><br /><br />
+
+      <input type="color" id="body" name="body" value="#f6b73c" />
+      <label for="body">Body</label><br /><br />
+      <label for="start">Start date:</label>
+
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2018-07-22"
+        min="2018-01-01"
+        max="2018-12-31"
+      /><br /><br />
+      <label for="class-time">Choose a time for your class:</label>
+
+      <input
+        type="datetime-local"
+        id="class-time"
+        name="class-time"
+        value=""
+        min="2022-06-07T00:00"
+        max="2025-06-14T00:00"
+      /><br /><br />
+      <input type="radio" name="empType" id="salaried" />
+      <label for="salaried"> Salaried</label><br />
+      <input type="radio" name="empType" id="empType" />
+      <label for="empType">Own Business</label><br /><br />
+      <label for="upload">Upload your file</label>
+      <input type="file" name="uploadFile" id="upload" /><br /><br />
+
+      <input
+        type="checkbox"
+        id="subscribeNews"
+        name="subscribe"
+        value="newsletter"
+      />
+      <label for="subscribeNews">Subscribe to newsletter?</label><br />
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>
