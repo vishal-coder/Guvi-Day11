@@ -1,0 +1,64 @@
+<!-- Use the table tag to design given image  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Table</title>
+  </head>
+  <style>
+    h2,
+    DIV {
+      text-align: center;
+    }
+
+    table,
+    th,
+    td {
+      border: 2px solid;
+      border-collapse: collapse;
+      margin: 0px auto;
+    }
+  </style>
+  <body>
+    <h2>Health Chart</h2>
+    <br />
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">State of Health</th>
+            <th colspan="2">Fasting Value</th>
+            <th>After Eating</th>
+          </tr>
+          <tr>
+            <th>Minimum</th>
+            <th>Maximum</th>
+            <th>2 hours after eating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Healty</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+          </tr>
+          <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+          </tr>
+          <tr>
+            <td>Diabetes</td>
+            <td>More than 216</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

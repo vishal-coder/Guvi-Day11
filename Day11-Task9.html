@@ -1,0 +1,46 @@
+<!--Write HTML input tags snippet to show default values for all Form elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day11 Task 9 - Default value</title>
+  </head>
+  <body>
+    <h3>Form with Default values</h3>
+    <form action="" method="GET">
+      <label for="fName">First Name</label>
+      <input type="text" name="fName-el" id="fName" value="John" /><br />
+      <label for="lName">Last Name</label>
+      <input type="text" name="lName-el" id="lName" value="Doe" /><br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email-el"
+        id="email"
+        value="john@Guvi.in"
+      /><br />
+      <label for="phone">Phone Number</label>
+      <input
+        type="number"
+        name="phone-el"
+        id="phone"
+        value="9999999999"
+      /><br />
+      <label for="gender-el">Select Your gender</label>
+      <input type="radio" name="gender-el" id="male" checked />
+      <label for="male">Male</label>
+      <input type="radio" name="gender-el" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender-el" id="other" />
+      <label for="other">Other</label><br />
+      <input type="checkbox" name="terms-el" id="terms" checked />
+      <label for="terms">terms and conditions</label><br />
+      <input type="checkbox" name="terms-el" id="contactTerm" />
+      <label for="contactTerm">Team can contact anytime</label><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

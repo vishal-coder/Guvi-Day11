@@ -1,0 +1,57 @@
+<!-- Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Layout</title>
+    <style>
+      div {
+        border: 3px solid;
+        width: 50%;
+      }
+      mark {
+        background-color: orangered;
+      }
+      h2 {
+        text-align: center;
+      }
+      #fName,
+      #lName {
+        width: 224px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2><mark> Yes! I want to subscribe to Mag-O-Zine</mark></h2>
+      <label for="fName">First Name</label>
+      <input type="text" name="fName-el" id="fName" />
+      <label for="lName">Last Name</label>
+      <input type="text" name="lName-el" id="lName" /><br /><br />
+      <label for="address">Address</label>
+      <textarea name="address-el" id="address" cols="73" rows="1"></textarea
+      ><br /><br />
+      <label for="city">City</label>
+      <input type="text" name="city-el" id="city" />
+      <label for="state">State</label>
+      <input type="text" name="state-el" id="state" />
+      <label for="zip">Zip</label>
+      <input type="text" name="zip-el" id="zip" /><br /><br />
+      <label>Subscribe for:</label>
+      <input type="checkbox" name="subDuration" id="1yr" checked />
+      <label for="1yr">1 year ($19.95)</label>
+      <input type="checkbox" name="subDuration" id="2yr" />
+      <label for="2yr">2 years ($35.00)</label><br /><br />
+      <label>Send me more information about:</label><br />
+      <input type="checkbox" name="infoZone" id="computerZ" checked />
+      <label for="computerZ">Computer-Zine</label><br />
+      <input type="checkbox" name="infoZone" id="FishingZ" />
+      <label for="FishingZ">Fishing-Zine</label><br />
+      <input type="checkbox" name="infoZone" id="CatoZ" checked />
+      <label for="CatoZ">Cat-O-Zine</label>
+    </div>
+  </body>
+</html>
